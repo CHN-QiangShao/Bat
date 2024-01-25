@@ -1,0 +1,4 @@
+@echo off
+@echo ’À∫≈£∫%1
+@echo √‹¬Î£∫%2
+pause

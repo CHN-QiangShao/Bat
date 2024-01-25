@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Print Current Directory</title>
+  <script>
+    window.onload = function() {
+      var path = window.location.pathname;
+      document.getElementById('current-path').textContent = path;
+    }
+  </script>
+</head>
+<body>
+  <h1>Current Directory:</h1>
+  <p id="current-path"></p>
+</body>
+</html>
